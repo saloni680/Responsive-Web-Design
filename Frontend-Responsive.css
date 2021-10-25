@@ -1,0 +1,399 @@
+h1{
+    font-size: 3vw;
+}
+.fa{
+    visibility: hidden;
+}
+.desk-desc{
+    text-decoration: dotted;
+    color: red;
+    margin-top: -10px;
+    font-size: 20px;
+}
+.tablet-desc{
+    visibility: hidden;
+}
+.mob-desc{
+    visibility: hidden;
+}
+.menu{   
+    font-size: 1vw;
+    margin-top: -250px;
+}
+body{
+    font-size: -1vw;
+}
+#about{
+    text-decoration: 2px line-through red;
+    color: grey;
+}
+button{
+    color:black;
+    background: red;
+    border-radius: 50px;
+    height: 30px;
+    width: 80px;
+}
+.question{
+    font-size:3vw;
+    margin: 200px;
+    margin-top: -80px;}
+.outer1{
+  width: 10%;
+  height: 160px;
+  border : 2px solid white;
+  margin-left: 190px;
+  margin-top : -150px; 
+   box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+  border-radius : 10px;
+  object-fit : cover;
+}
+
+.inner1{
+    height: 60%;
+    width: 70%;
+    margin:18px ;
+    margin-top: 20px;
+    border-radius:80% ;
+}
+.first-Text{
+    font-size : -1vw;
+    text-align: center;
+}
+.outer2{
+    width: 10%;
+    height: 160px;
+    border : 2px solid white;
+    margin-left: 350px;
+    margin-top : -160px; 
+     box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+    border-radius : 10px;
+    object-fit : cover;
+}
+.inner2{
+    height: 60%;
+    width: 70%;
+    margin:15px ;
+    margin-top: 20px;
+    border-radius:80% ;
+}
+.second-Text{
+    font-size : -1vw;
+    text-align: center; 
+}
+.outer3{
+    width: 10%;
+    height: 160px;
+    border : 2px solid white;
+    margin-left: 510px;
+    margin-top : -160px; 
+     box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+    border-radius : 10px;
+    object-fit : cover;
+}
+.inner3{
+    height: 60%;
+    width: 70%;
+    margin:15px ;
+    margin-top: 20px;
+    border-radius:80% ;
+}
+.third-Text{
+    font-size : -1vw;
+    text-align: center; 
+}
+.outer4{
+    width: 10%;
+    height: 160px;
+    border : 2px solid white;
+    margin-left: 670px;
+    margin-top : -160px; 
+     box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+    border-radius : 10px;
+    object-fit : cover;
+}
+.inner4{
+    height: 60%;
+    width: 70%;
+    margin:15px ;
+    margin-top: 20px;
+    border-radius:80% ;
+}
+.fourth-Text{
+    font-size : -1vw;
+    text-align: center; 
+}
+.outer5{
+    width: 10%;
+    height: 160px;
+    border : 2px solid white;
+    margin-left: 830px;
+    margin-top : -160px; 
+     box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+    border-radius : 10px;
+    object-fit : cover;
+}
+.inner5{
+    height: 60%;
+    width: 70%;
+    margin:15px ;
+    margin-top: 20px;
+    border-radius:80% ;
+}
+.fifth-Text{
+    font-size : -1vw;
+    text-align: center; 
+}
+.mob-lorem{
+    visibility: hidden;
+}
+.menu-icon{
+    visibility: hidden;
+}
+
+@media  only screen and  (max-width : 1200px) {
+    h1{
+       margin: 14px;
+       font-size: 2.50vw;
+    }
+    .fa{
+       visibility: hidden;
+    }
+    .tablet-desc{
+        text-decoration: dotted;
+        color: blue;
+        margin-top: -10px;
+        font-size: 20px;
+        visibility: visible;
+    }
+    .desk-desc{
+        visibility: hidden;
+    }
+    .mob-desc{
+        visibility: hidden;
+    }
+    .menu{
+        margin: 11px;
+        font-size: 1.60vw;
+        margin-top: -210px;
+    }
+    .question{
+        font-size: 3vw;
+    }
+    .btn{
+        margin-top: 120px;
+        width: 90px;
+        height: 38px;
+        border-radius: 20px;
+        font-size: 2vw;
+    }
+    .outer1{
+        width: 15%;
+        height: 158px;
+        border : 1px solid white;
+        margin-left: 168px;
+        margin-top : -210px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+      }
+      .first-Text{
+        font-size : 1.50vw;
+        text-align: center;
+    }
+      .outer2{
+        width: 15%;
+        height: 158px;
+        border : 1px solid white;
+        margin-left: 342px;
+        margin-top : -157px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+    }   
+    .second-Text{
+        font-size : 1.50vw;
+        text-align: center;
+    }
+    .outer3{
+        width: 15%;
+        height: 158px;
+        border : 1px solid white;
+        margin-left: 510px;
+        margin-top : -160px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;   
+    }
+    .third-Text{
+        font-size : 1.50vw;
+        text-align: center;
+    }
+    .outer4{
+        position: sticky;
+        width: 15%;
+        height: 158px;
+        border : 1px solid white;
+        margin-left: 680px;
+        margin-top : -158px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+    }
+    .fourth-Text{
+        font-size : 1.50vw;
+        text-align: center;
+    }
+    .outer5{
+        position: sticky;
+        width: 15%;
+        height: 158px;
+        border : 1px solid white;
+        margin-left: 850px;
+        margin-top : -158px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+    }
+    .fifth-Text{
+        font-size : 1.50vw;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-icon{
+        visibility: visible;
+        color : red;
+        font-size:x-large;
+        margin-top: 5px;
+        margin : 10px;
+    }
+    .mob-desc{
+        text-decoration: dotted;
+        color:green;
+        margin : 10px;
+        margin-top: -10px;
+        font-size: 20px;
+        visibility: visible;
+    }
+    .fa{
+        font-size: 26px;
+        color : red;
+        margin-left: 495px;
+        margin-bottom: -25px;
+        visibility: visible;
+    }
+    .tablet-desc{
+        visibility: hidden;
+    }
+    .desk-desc{
+        visibility:hidden;
+    }
+   .mob-lorem{
+    font-size:  10vw;
+    text-align: center;
+    visibility: visible;
+    background-color: blue;
+   }
+   .desktop-lorem{
+       visibility: hidden;
+   }
+    .menu{
+        visibility: hidden;
+    }    
+    .question{
+        margin-left: 20px;
+        font-size: 6vw;
+    }
+
+    .btn{
+        margin: 120px;
+        margin-top: 90px;
+        font-size: 20px;
+    }
+    .outer1{
+        width: 24%;
+        height: 153px;
+        border : 1px solid white;
+        margin-left: 20px;
+        margin-top : -80px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+      }
+      
+      .inner1{
+          height: 60%;
+          width: 70%;
+          margin:14px ;
+          margin-top: 10px;
+          border-radius:80% ;
+      }
+      .first-Text{
+          font-size : 3vw;
+          text-align: center;
+      }
+      .outer2{
+        
+        width: 24%;
+        height: 153px;
+        border : 1px solid white;
+        margin-left: 190px;
+        margin-top : -150px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+    }
+    .inner2{
+        height: 60%;
+        width: 70%;
+        margin:15px ;
+        margin-top: 10px;
+        border-radius:80% ;
+    }
+    .second-Text{
+        font-size : 2.75vw;
+        text-align: center; 
+    }
+    .outer3{
+        width: 24%;
+        height: 153px;
+        border : 1px solid white;
+        margin-left: 20px;
+        margin-top : 40px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+    }
+    .inner3{
+        height: 60%;
+        width: 70%;
+        margin:15px ;
+        margin-top: 10px;
+        border-radius:80% ;
+    }
+    .third-Text{
+        font-size : 3vw;
+        text-align: center; 
+    }
+    .outer4{
+        position: sticky;
+        width: 24%;
+        height: 153px;
+        border : 1px solid white;
+        margin-left: 190px;
+        margin-top : -150px; 
+         box-shadow:  12px 2px 120px rgba(128, 128, 128, 0.911);
+        border-radius : 10px;
+        object-fit : cover;
+    } 
+    .fourth-Text{
+        font-size : 3vw;
+        text-align: center; 
+    } 
+    .outer5{
+        visibility: hidden;
+    }
+},
+
